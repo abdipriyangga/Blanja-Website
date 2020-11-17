@@ -1,0 +1,978 @@
+/* .flex-container .flex-row
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;   
+}
+.flex-row
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;  
+}
+
+@media(max-width: 800px)
+{
+    .flex-container
+    {
+        flex-direction: column;
+    }
+}
+
+.flex-img
+{
+    position: absolute; 
+    margin: 0% 0% 0% 42%; 
+    padding:3%;
+    width: 9.5%;
+}
+
+.text-head
+{
+    position: absolute;
+    color: #DB3022; 
+    font-size: 3vw;
+    padding: auto;
+    margin: 1% 0% 0% 49%;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis; 
+    font-weight: bold;
+}
+
+.text-second 
+{
+    position: absolute;
+    margin: 5% 0% 0% 40%; 
+    @font-face {
+        font-family: 'metropolis-black';
+        src: url('./assets/fonts/metropolis.black.otf');
+    }; 
+    font-family: metropolis-black;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.button-choice
+{
+    position: absolute;
+    border: 1px solid rgb(189, 189, 189);
+    width: 25vw; 
+    height: 100%;
+    margin: 10% 0% 0% 37%;
+    border-radius:3px;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+}
+
+.button-choice-customer
+{
+    background-color: #DB3022;
+    position: relative;
+    color: #ffffff; 
+    width: 100%; 
+    height: 100%;
+    padding: 2%;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-size: 1.2vw;
+}
+
+.button-choice-seller
+{
+    position: relative;
+    color: #9b9b9b; 
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-size: 1.2vw;
+}
+
+.primary-button-box
+{
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    margin: 35% 0% 0% 0%;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    
+}
+
+.primary-button
+{
+    position:relative; 
+    width: 35%;
+    height: 100%;
+    margin-left: 33%; 
+    border-radius: 20px; 
+    background-color: #DB3022;
+}
+
+.forgot-password 
+{
+    position:absolute;
+    width: 17%;
+    height: auto;
+    margin: 27% 0% 0% 56%;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-size: 1.3vw;
+}
+
+.text-register
+{
+    position:absolute; 
+    width:25%; 
+    margin-top: 44%;
+    margin-left: 38%; 
+    font-size: 14px;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    line-height: 14px;
+    font-size: 1.2vw;
+} */
+
+.flex-container
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 45%;
+}
+.flex-img
+{
+    position: absolute;
+}
+.text-logo
+{
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 1.5%;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    line-height: 14px;
+    font-weight: bold;
+    font-size: 2vw;
+    color: #DB3022;
+}
+
+@media(max-width: 800px)
+{
+    .flex-container
+    {
+        flex:80%;
+    }
+}
+.text-login
+{
+    position: absolute; 
+    margin-top:8%; 
+    margin-left: -5%;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    line-height: 14px;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+.button-choice
+{
+    width: 100%;
+    position: absolute;
+    margin-top:15%; 
+    margin-left: -5%;
+}
+.button-choice-customer
+{
+    width: 10%;
+    padding:15px;
+    background-color: #DB3022;
+    color: #FFFFFF;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 1.3vw;
+}
+
+.button-choice-seller
+{
+    width: 10%;
+    padding:15px;
+    margin-left: -0.5%;
+    background-color: #FFFFFF;
+    color:#9b9b9b;
+    border: 1px solid #8E8E93;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 1.3vw;
+}
+.forgot-password
+{
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 14%;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    line-height: 14px;
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+
+.primary-button-box
+{
+    position: absolute; 
+    width: 20%; 
+    margin-top: 35%; 
+    background-color: #DB3022; 
+    margin-left: -5%; 
+    border-radius: 15px; 
+    text-align: center;
+}
+.text-register
+{
+    position: absolute; 
+    margin-top: 39%; 
+    margin-left: -6%;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    line-height: 14px;
+    font-weight: 500;
+    font-size: 1.3vw;
+}
+
+.text-reset
+{
+    position: absolute; 
+    margin-top:8%; 
+    margin-left: -1%;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    line-height: 14px;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.text-reset2
+{
+    position: absolute;
+    margin-left: -12%;
+    margin-top: 13%;
+    color: #DB3022;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    line-height: 14px;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+/* Home V1 */
+
+.text-brand
+{
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    color: #DB3022;
+    font-family: metropolis;
+    font-weight: bold;  
+    margin-left: 0; 
+}
+
+.search-text
+{
+    width: 88%;
+    height: 40px;
+    border: 1px solid #8E8E93;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.search-btn
+{
+    position: absolute;
+    width: 5%;
+    height: 40px;
+    padding: 5px;
+    margin-left: -40px;
+    border-radius: 50%;
+}
+
+.filter-btn
+{
+    width: 7%;
+    height: 40px;
+    padding: 5px;
+    margin-left: 0;
+    border: 1px solid #8E8E93;
+    border-radius: 25%;
+    color: #8E8E93;
+}
+
+.shop-btn
+{
+    width: 5%;
+    height: 20px;
+    padding: 0;
+    margin-left: 0;
+    border: none;
+    outline-color: #8E8E93, 100%;
+    border-radius: 20%;
+}
+
+.login-btn
+{
+    width: 30%;
+    height: 36px;
+    padding: 2;
+    margin-left: 30px;
+    border: none;
+    background-color: #DB3022;
+    border-radius: 50px;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-weight: 500px;   
+    font-size: 14px;
+}
+
+.signUp-btn
+{
+    width: 30%;
+    height: 36px;
+    padding: 2;
+    margin-left: 15px;
+    border: 1px solid #9b9b9b;
+    color: #8E8E93;
+    border-radius: 50px;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-weight: 500px;   
+    font-size: 14px;
+}
+
+.box-card-one
+{
+    position: absolute;
+    width: 20%;
+    height: 180px;
+    padding: 0px;
+    top: 100px;
+    
+}
+.card-one
+{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    padding: 0px;
+    top: 0;
+    background-image: url('../images/1.jpeg');
+    background-position: 70%;
+    background-size: cover;
+    border-radius: 8px;
+    
+}
+
+.box-card-two
+{
+   
+    position: absolute;
+    width: 40%;
+    height: 303px;
+    left: 110px;
+    top: 100px;
+}
+.card-two
+{
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: -1;
+}
+.card-two img
+{
+    width: 100%;
+}
+
+.text-card-two
+{
+    position: absolute;
+    margin:-48% 0 0 23%;
+    line-height: 30px;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-weight: bold;   
+    font-size: 3vw;
+    line-height: 38px;
+    color: #ffffff;
+}
+
+
+.box-card-three
+{
+   
+    position: absolute;
+    width: 40%;
+    height: 303px;
+    left: 49%;
+    top: 100px;
+}
+.card-three
+{
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: -1;
+}
+.card-three img
+{
+    width: 100%;
+}
+
+.text-card-three
+{
+    position: absolute;
+    margin:-48% 0 0 23%;
+    line-height: 30px;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-weight: bold;   
+    font-size: 3vw;
+    line-height: 38px;
+    color: #ffffff;
+}
+
+.box-card-four
+{
+    position: absolute;
+    width: 20%;
+    height: 180px;
+    padding: 0px;
+    top: 100px;
+    
+}
+.card-four
+{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    left: 1080%;
+    padding: 0px;
+    top: 0;
+    background-image: url('../images/4.jpeg');
+    background-position: 10%;
+    background-size: cover;
+    border-radius: 8px;
+    
+}
+
+.box-tshirt
+{
+    position: absolute;
+    width: 206px;
+    height: 220px;
+    padding: 20px;
+
+}
+.tshirt
+{
+    margin:20px;
+}
+.text-tshirt
+{
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-size: 38px;
+    line-height: 38px;
+}
+
+.box-pants
+{
+    position: absolute;
+    width: 206px;
+    height: 220px;
+    margin-left: 20%;
+    padding: 20px;
+}
+.pants
+{
+    margin:20px;
+}
+.text-pants
+{
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-size: 38px;
+    line-height: 38px;
+}
+.box-jacket
+{
+    position: absolute;
+    width: 206px;
+    height: 220px;
+    margin-left: 40%;
+    padding: 20px;
+}
+.jacket
+{
+    margin:20px;
+}
+.text-jacket
+{
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-size: 38px;
+    line-height: 38px;
+}
+.box-short
+{
+    position: absolute;
+    width: 206px;
+    height: 220px;
+    margin-left: 60%;
+    padding: 20px;
+}
+.short
+{
+    margin:20px;
+}
+.text-short
+{
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-size: 38px;
+    line-height: 38px;
+}
+
+.box-shoes
+{
+    position: absolute;
+    width: 206px;
+    height: 220px;
+    margin-left: 80%;
+    padding: 20px;
+}
+.shoes
+{
+    margin:20px;
+}
+.text-shoes
+{
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-size: 38px;
+    line-height: 38px;
+}
+
+.box-new-item-one
+{
+    position: absolute;
+    width: 208px;
+    height: 248px;
+    margin-top: 440px;
+    margin-left: -190px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.new-item-one
+{
+    width: 238px;
+    height: 136px;
+    margin-left: -40px;
+    margin-top: -20px;
+}
+.text-new-item-one
+{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #000000;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.price-new-item-one
+{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 5px;
+    color: #DB3022;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.brand-new-item-one
+{
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 5px;
+    color: #9B9B9B, 100%;
+    font-size: 12px;
+    line-height: 12px;
+}
+.rating-new-item-one
+{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 5px;
+    color: #FFBA49;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.box-new-item-two
+{
+    position: absolute;
+    width: 208px;
+    height: 248px;
+    margin-top: 440px;
+    margin-left: 2%;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.new-item-two
+{
+    width: 238px;
+    height: 136px;
+    margin-left: -40px;
+    margin-top: -20px;
+}
+.text-new-item-two
+{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #000000;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.price-new-item-two
+{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 5px;
+    color: #DB3022;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.brand-new-item-two
+{
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 5px;
+    color: #9B9B9B, 100%;
+    font-size: 12px;
+    line-height: 12px;
+}
+.rating-new-item-two
+{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 5px;
+    color: #FFBA49;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+
+.box-new-item-three
+{
+    position: absolute;
+    width: 208px;
+    height: 248px;
+    margin-top: 440px;
+    margin-left: 21%;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.new-item-three
+{
+    width: 238px;
+    height: 136px;
+    margin-left: -40px;
+    margin-top: -20px;
+}
+.text-new-item-three
+{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #000000;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.price-new-item-three
+{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 5px;
+    color: #DB3022;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.brand-new-item-three
+{
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 5px;
+    color: #9B9B9B, 100%;
+    font-size: 12px;
+    line-height: 12px;
+}
+.rating-new-item-three
+{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 5px;
+    color: #FFBA49;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+
+.box-new-item-four
+{
+    position: absolute;
+    width: 208px;
+    height: 248px;
+    margin-top: 440px;
+    margin-left: 40%;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.new-item-four
+{
+    width: 238px;
+    height: 136px;
+    margin-left: -40px;
+    margin-top: -20px;
+}
+.text-new-item-four
+{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #000000;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.price-new-item-four
+{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 5px;
+    color: #DB3022;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.brand-new-item-four
+{
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 5px;
+    color: #9B9B9B, 100%;
+    font-size: 12px;
+    line-height: 12px;
+}
+.rating-new-item-four
+{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 5px;
+    color: #FFBA49;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+
+.box-new-item-five
+{
+    position: absolute;
+    width: 208px;
+    height: 248px;
+    margin-top: 440px;
+    margin-left: 59%;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.new-item-five
+{
+    width: 238px;
+    height: 136px;
+    margin-left: -40px;
+    margin-top: -20px;
+}
+.text-new-item-five
+{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #000000;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.price-new-item-five
+{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 5px;
+    color: #DB3022;
+    @font-face {
+        font-family: 'metropolis';
+        src: url('./assets/fonts/metropolis.extra-bold.otf');
+    }; 
+    font-family: metropolis;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.brand-new-item-five
+{
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 5px;
+    color: #9B9B9B, 100%;
+    font-size: 12px;
+    line-height: 12px;
+}
+.rating-new-item-five
+{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 5px;
+    color: #FFBA49;
+    font-size: 12px;
+    line-height: 12px;
+}
